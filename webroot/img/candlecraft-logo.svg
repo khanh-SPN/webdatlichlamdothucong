@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 52" fill="none" role="img" aria-labelledby="lt">
+  <title id="lt">CandleCraft Academy</title>
+  <defs>
+    <linearGradient id="lg" x1="24" y1="3" x2="24" y2="23" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a96678"/>
+      <stop offset="1" stop-color="#752f3f"/>
+    </linearGradient>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&amp;family=Plus+Jakarta+Sans:wght@500&amp;display=swap");
+    </style>
+  </defs>
+  <g transform="translate(0,4)">
+    <path fill="url(#lg)" d="M24 3.5Q14.5 16 24 22.5Q33.5 16 24 3.5z"/>
+    <rect x="20.5" y="22.25" width="7" height="19.75" rx="0.6" fill="#752f3f"/>
+  </g>
+  <text x="46" y="36" font-family="'Dancing Script', 'Brush Script MT', cursive" font-weight="600" font-size="30" fill="#752f3f">CandleCraft</text>
+  <text x="46" y="47" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9.5" font-weight="500" fill="#64748b" letter-spacing="0.22em">ACADEMY</text>
+</svg>

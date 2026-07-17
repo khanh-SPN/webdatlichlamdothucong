@@ -1,0 +1,15 @@
+{
+	# Caddy is used only for local HTTPS in development.
+	# Run CakePHP at http://localhost:8765, then proxy it via https://localhost:8766.
+	auto_https off
+}
+
+https://localhost:8766 {
+	tls ./config/dev-certs/localhost.pem ./config/dev-certs/localhost-key.pem
+	reverse_proxy localhost:8765
+	header {
+		# Keep cookies compatible with local dev; app cookies are still managed by CakePHP.
+		Strict-Transport-Security "max-age=0"
+	}
+}
+

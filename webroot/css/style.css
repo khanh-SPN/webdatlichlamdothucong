@@ -1,0 +1,127 @@
+/* Background */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+}
+
+/* Navbar */
+.cc-nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(90deg, #2196f3, #64b5f6);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* NAV CONTAINER */
+.cc-nav__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+/* CENTER MENU */
+.cc-nav__center {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+/* RIGHT */
+.cc-nav__right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* LINK */
+.cc-nav__link {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.cc-nav__link:hover {
+    color: #fff176;
+    transform: translateY(-2px);
+}
+
+/* ACTIVE */
+.cc-nav__link--active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: yellow;
+    bottom: -5px;
+    left: 0;
+    border-radius: 10px;
+}
+
+/* BUTTON */
+.cc-btn {
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* BUTTON OUTLINE */
+.cc-btn-outline {
+    border: 2px solid white;
+    color: white;
+}
+
+.cc-btn-outline:hover {
+    background: white;
+    color: #2196f3;
+    transform: scale(1.05);
+}
+
+/* WELCOME */
+.cc-nav__welcome {
+    color: #e3f2fd;
+    font-weight: 500;
+}
+
+/* DROPDOWN */
+.cc-dropdown {
+    position: relative;
+}
+
+.cc-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.cc-dropdown:hover .cc-dropdown-menu {
+    display: block;
+}
+
+.cc-dropdown-item {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.cc-dropdown-item:hover {
+    background: #e3f2fd;
+}
+
+/* Animation */
+.cc-nav__link,
+.cc-btn {
+    transition: all 0.3s ease;
+}

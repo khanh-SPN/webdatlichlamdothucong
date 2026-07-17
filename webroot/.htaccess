@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # If the app is in a subdirectory, uncomment and set the URL path to this webroot folder:
+    # RewriteBase /team112-app_fit3047/webroot/
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
