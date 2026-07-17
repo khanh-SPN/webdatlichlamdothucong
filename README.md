@@ -212,15 +212,11 @@ Main entities:
 
 ---
 
-## 👥 Team Members
+## 👥 Developer
 
-| Name             | Role             | Email                                                             |
-| ---------------- | ---------------- | ----------------------------------------------------------------- |
-| Eugenia Lee      | Client Liaison   | [elee0090@student.monash.edu](mailto:elee0090@student.monash.edu) |
-| Rajvardhan Khore | Team Coordinator | [rkho0024@student.monash.edu](mailto:rkho0024@student.monash.edu) |
-| Rain Zhang       | Team Member      | [szha0331@student.monash.edu](mailto:szha0331@student.monash.edu) |
-| Keiko Oey        | Team Member      | [koey0001@student.monash.edu](mailto:koey0001@student.monash.edu) |
-| Hung Hoang       | Team Member      | [lhoa0020@student.monash.edu](mailto:lhoa0020@student.monash.edu) |
+| Name           | Role      |
+| -------------- | --------- |
+| Ngô Duy Khánh  | Developer |
 
 ---
 
